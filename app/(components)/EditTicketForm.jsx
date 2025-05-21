@@ -56,6 +56,13 @@ const EditTicketForm = ({ ticket }) => {
         //@ts-ignore
         "Content-Type": "application/json",
       });
+//       const res = await fetch("/api/Tickets", {
+//   method: "POST",
+//   headers: {
+//     "Content-Type": "application/json",
+//   },
+//   body: JSON.stringify({ formData }),
+// });
       if (!res.ok) {
         throw new Error("Failed to create ticket");
       }

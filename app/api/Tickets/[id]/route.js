@@ -1,5 +1,7 @@
+// import Ticket from "../../models/Ticket";
 import Ticket from "@/app/models/Ticket";
 import { NextResponse } from "next/server";
+// import connectDB from "@/app/lib/mongoose";
 
 export async function GET(request, { params }) {
   const { id } = params;
@@ -37,3 +39,31 @@ export async function DELETE(req, { params }) {
     return NextResponse.json({ message: "Error", error }, { status: 500 });
   }
 }
+
+// export async function GET() {
+//   try {
+//     console.log("API /api/test called");
+//     await connectDB(); 
+//     const tickets = await Ticket.find();
+
+//     return NextResponse.json({ tickets }, { status: 200 });
+//   } catch (err) {
+//     console.log(err);
+//     return NextResponse.json({ message: "Error", err }, { status: 500 });
+//   }
+// }
+
+// export async function POST(req) {
+//   try {
+//     await connectDB(); 
+//     const body = await req.json();
+//     const ticketData = body.formData;
+
+//     await Ticket.create(ticketData);
+
+//     return NextResponse.json({ message: "Ticket Created" }, { status: 201 });
+//   } catch (err) {
+//     console.log(err);
+//     return NextResponse.json({ message: "Error", err }, { status: 500 });
+//   }
+// }
