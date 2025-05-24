@@ -73,14 +73,6 @@ Toate acțiunile sunt reflectate instant în interfața React prin refresh autom
 Link video: https://youtu.be/iGwivCBxtIQ
 Link publicare: https://ticketing-app-rouge.vercel.app/
 
-6. Referințe
-   
-•	Next.js - Documentație oficială
-•	MongoDB - Documentație
-•	Tailwind CSS
-•	React - Documentație
-•	FontAwesome - Iconuri
-•	https://www.youtube.com/watch?v=H0vhkoXljq0&t=2s&ab_channel=freeCodeCamp.org
 
 
 
