@@ -1,8 +1,10 @@
 1. Introducere
+   
 Aplicația mea a fost concepută ca o soluție pentru gestionarea tichetelor de suport tehnic și probleme legate de IT, fie că este vorba despre o companie, o instituție educațională sau un departament de suport tehnic intern. Proiectul este dezvoltat folosind framework-ul Next.js, alături de React.js pentru partea de frontend și MongoDB pentru stocarea datelor.
 Scopul principal este oferirea unei interfețe moderne și ușor de folosit pentru a facilita urmărirea, crearea și actualizarea cererilor de suport.
 
-2. Descrierea problemei 
+2. Descrierea problemei
+    
 Gestionarea tichetelor de suport este o provocare frecventă pentru echipele IT sau de mentenanță. De multe ori, fără un sistem centralizat, tichetele pot fi pierdute, uitate sau tratate cu întârziere. Acest lucru duce la scăderea eficienței, frustrare din partea utilizatorilor și posibile blocaje operaționale.
 Probleme identificate:
 •	Lipsa unui sistem clar pentru prioritizarea tichetelor.
