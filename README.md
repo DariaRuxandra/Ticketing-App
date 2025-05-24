@@ -20,6 +20,7 @@ Aplicația oferă o platformă centralizată, unde toate cererile sunt:
 
 
 3. Descriere API
+   
 Aplicația implementează un API RESTful, ce permite operații CRUD (Create, Read, Update, Delete) asupra tichetelor. Fiecare endpoint este gândit pentru a servi cererilor din interfața utilizatorului.
 
 Endpoints disponibile:
@@ -59,7 +60,8 @@ Momentan aplicația nu include autentificare, dar arhitectura este pregătită p
 •	JWT (JSON Web Tokens) pentru token-based auth
 •	NextAuth.js pentru OAuth și autentificare social
 
-4. Flux de date 
+4. Flux de date
+   
 1.	Utilizatorul creează un tichet din formular.
 2.	Acesta este trimis la backend prin POST /api/Tickets.
 3.	Serverul salvează datele în MongoDB.
@@ -72,6 +74,7 @@ Link video: https://youtu.be/iGwivCBxtIQ
 Link publicare: https://ticketing-app-rouge.vercel.app/
 
 6. Referințe
+   
 •	Next.js - Documentație oficială
 •	MongoDB - Documentație
 •	Tailwind CSS
