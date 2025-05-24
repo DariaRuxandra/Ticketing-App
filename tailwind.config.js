@@ -20,7 +20,16 @@ module.exports = {
         "default-text": "#f1f3f5",
         "blue-accent": "#0084d4",
         "blue-accent-hover": "#009fff",
+        "pink-accent": "#ec4899",
+        "pink-light": "#fce7f3",
+        "pink-dark": "#be185d",
+        "rose-accent": "#f43f5e",
+        "lavender": "#e6e6fa",
       },
+      fontFamily: {
+        fancy: ["'Poppins'", "sans-serif"],
+      },
+
     },
   },
   plugins: [],
